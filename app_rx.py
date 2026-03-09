@@ -17,7 +17,7 @@ import plotly.graph_objects as go
 import time
 
 sys.path.insert(0, os.path.dirname(__file__))
-from calculations import calculate_all, CONDUCTORS
+from calculations_rx import calculate_all, CONDUCTORS
 
 # ── PAGE CONFIG ────────────────────────────────────────────────────────────────
 st.set_page_config(
